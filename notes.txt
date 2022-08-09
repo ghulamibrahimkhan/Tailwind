@@ -1,0 +1,12 @@
+text-blue-900
+mx-4
+flex
+
+******************
+npm init
+npm install -D tailwindcss postcss autoprefixer
+npm install vite
+npx tailwindcss init
+in package.json in Debug change script to "start" and "echo \"Error: no test specified\" && exit 1" to "vite"
+npm run start
+******************
