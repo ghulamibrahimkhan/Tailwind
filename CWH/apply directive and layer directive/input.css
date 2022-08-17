@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+
+.nav{
+    @apply bg-violet-500 text-white text-lg
+}
+.nav-ul{
+    @apply flex justify-center space-x-11 font-semibold font-sans h-16 items-center
+}
+.nav-li{
+    @apply cursor-pointer hover:bg-violet-600 hover:text-yellow-50 hover:h-11 active:bg-violet-700 hover:py-1
+}
+.btn{
+    @apply focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900
+}
+
+@tailwind utilities;
+
+@layer components{
+    .layer-h1{
+        @apply bg-rose-400 h-20 p-6 text-white text-center w-72 hover:h-24 hover:p-8 hover:text-lg m-10 hover:my-8
+    }
+
+}
